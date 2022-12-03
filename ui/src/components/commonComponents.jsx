@@ -25,4 +25,12 @@ function Card(props) {
   );
 }
 
-export {Footer, Header, Card};
+function LocationNotEnabled(){
+  return (
+    <React.Fragment>
+      <h1>Please enable Location</h1>
+    </React.Fragment>
+  );
+}
+
+export {Footer, Header, Card, LocationNotEnabled};
